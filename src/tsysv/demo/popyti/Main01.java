@@ -32,7 +32,7 @@ public class Main01 extends Activity {
 				Log.v("Main01", " 1 button");
 			} 
 		});
-
+   
 		
 		
 		main02.setOnClickListener(new View.OnClickListener() {
