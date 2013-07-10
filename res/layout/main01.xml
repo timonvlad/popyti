@@ -19,8 +19,6 @@
         android:layout_alignParentLeft="true"
         android:src="@drawable/fon21" />
 
-
-
     <ImageView
         android:id="@+id/main04"
         android:layout_width="50dp"
@@ -30,21 +28,46 @@
         android:src="@drawable/fon21" />
 
     <ImageView
+        android:id="@+id/main03"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/main04"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@+id/main04"
+        android:src="@drawable/fon21" />
+
+    <ImageView
         android:id="@+id/main02"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_alignTop="@+id/main01"
-        android:layout_marginLeft="32dp"
+        android:layout_marginLeft="30dp"
         android:layout_toRightOf="@+id/main01"
         android:src="@drawable/fon21" />
 
     <ImageView
-        android:id="@+id/main03"
+        android:id="@+id/karta01"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_alignLeft="@+id/main01"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/fon21" />
+
+    <ImageView
+        android:id="@+id/rezhim01"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginRight="26dp"
-        android:layout_toLeftOf="@+id/ImageView03"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/fon21" />
+
+    <ImageView
+        android:id="@+id/mess01"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/main01"
+        android:layout_alignLeft="@+id/main01"
         android:src="@drawable/fon21" />
     
 </RelativeLayout>

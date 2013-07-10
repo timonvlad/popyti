@@ -27,16 +27,19 @@
           <activity
             android:name="tsysv.demo.popyti.Activity02"
             android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
              >
         </activity>
          <activity
             android:name="tsysv.demo.popyti.Activity03"
             android:label="@string/app_name"
+             android:theme="@android:style/Theme.NoTitleBar"
              >
         </activity>
          <activity
             android:name="tsysv.demo.popyti.Main01"
             android:label="@string/app_name"
+             android:theme="@android:style/Theme.NoTitleBar"
              >
         </activity>
     </application>

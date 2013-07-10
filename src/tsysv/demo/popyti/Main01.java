@@ -11,7 +11,7 @@ import android.widget.ImageView;
 
 public class Main01 extends Activity {
 	
-	ImageView main01, main02, main03, main04;
+	ImageView main01, main02, main03, main04, karta01, rezhim01,mess01;
 	
 
 	@Override
@@ -23,6 +23,10 @@ public class Main01 extends Activity {
 		main02 = (ImageView) findViewById(R.id.main02);
 		main03 = (ImageView) findViewById(R.id.main03);
 		main04 = (ImageView) findViewById(R.id.main04);
+		karta01 = (ImageView) findViewById(R.id.karta01);
+		rezhim01 = (ImageView) findViewById(R.id.rezhim01);
+		mess01 = (ImageView) findViewById(R.id.mess01);
+		
 		
 		main01.setOnClickListener(new View.OnClickListener() {
 			
@@ -65,7 +69,35 @@ public class Main01 extends Activity {
 		});
 
 
+
 		
+		karta01.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Log.v("Main01", " KARTA");
+			}
+		});
+
+		
+		rezhim01.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Log.v("Main01", " REZHIM");
+			}
+		});
+		
+		mess01.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Log.v("Main01", " MESSAGES");
+			}
+		});
 		
 	//	RelativeLayout ll = (RelativeLayout) findViewById(R.id.f02);
 	//	ll.setBackgroundResource(R.drawable.f02);
