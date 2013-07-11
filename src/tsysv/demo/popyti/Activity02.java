@@ -31,7 +31,7 @@ public class Activity02 extends Activity {
 			
 				//Toast.makeText(getApplicationContext(), "First", Toast.LENGTH_LONG).show();
 				Log.v("Activity02", " first button");
-				 Intent i = new Intent(Activity02.this, Activity03.class);
+				 Intent i = new Intent(getApplicationContext(), Activity03.class);
 	                startActivity(i);
 	 
 	                // close this activity

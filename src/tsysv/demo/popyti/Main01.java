@@ -11,7 +11,7 @@ import android.widget.ImageView;
 
 public class Main01 extends Activity {
 	
-	ImageView main01, main02, main03, main04, karta01, rezhim01,mess01;
+	ImageView main01, main02, main03, main04, karta01, rezhim01,mess01,actmar01;
 	
 
 	@Override
@@ -26,6 +26,7 @@ public class Main01 extends Activity {
 		karta01 = (ImageView) findViewById(R.id.karta01);
 		rezhim01 = (ImageView) findViewById(R.id.rezhim01);
 		mess01 = (ImageView) findViewById(R.id.mess01);
+		actmar01 = (ImageView) findViewById(R.id.actmar01);
 		
 		
 		main01.setOnClickListener(new View.OnClickListener() {
@@ -34,6 +35,8 @@ public class Main01 extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				Log.v("Main01", " 1 button");
+				 Intent ii = new Intent(getApplicationContext(), Vopr01.class);
+	                startActivity(ii);
 			} 
 		});
    
@@ -45,6 +48,8 @@ public class Main01 extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				Log.v("Main01", " 2 button");
+				 Intent ii = new Intent(getApplicationContext(), Sloi01.class);
+	                startActivity(ii);
 			}
 		});
 
@@ -54,7 +59,9 @@ public class Main01 extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				Log.v("Main01", " 3 button");
+				Log.v("Main01", " 3 button marshr");
+				 Intent ii = new Intent(getApplicationContext(), Marshr01.class);
+	                startActivity(ii);
 			}
 		});
 
@@ -77,6 +84,8 @@ public class Main01 extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				Log.v("Main01", " KARTA");
+				 Intent ii = new Intent(getApplicationContext(), Karta01.class);
+	                startActivity(ii);
 			}
 		});
 
@@ -98,6 +107,17 @@ public class Main01 extends Activity {
 				Log.v("Main01", " MESSAGES");
 				 Intent ii = new Intent(getApplicationContext(), Mess01.class);
 	                startActivity(ii);
+			}
+		});
+		
+		actmar01.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Log.v("Main01", " ACTIVE MARSHR");
+				 Intent ii = new Intent(getApplicationContext(), Marshr03.class);
+	              startActivity(ii);
 			}
 		});
 		

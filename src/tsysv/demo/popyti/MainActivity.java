@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                Intent i = new Intent(MainActivity.this, Activity02.class);
+                Intent i = new Intent(getApplicationContext(), Activity02.class);
                 startActivity(i);
  
                 // close this activity
