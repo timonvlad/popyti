@@ -216,6 +216,55 @@
              android:theme="@android:style/Theme.NoTitleBar"
              >
         </activity>
+         <activity
+            android:name="tsysv.demo.popyti.Menu00"
+            android:label="@string/app_name"
+             android:theme="@android:style/Theme.NoTitleBar"
+             >
+        </activity>
+         <activity
+            android:name="tsysv.demo.popyti.Menu10"
+            android:label="@string/app_name"
+             android:theme="@android:style/Theme.NoTitleBar"
+             >
+        </activity>
+           <activity
+            android:name="tsysv.demo.popyti.Menu11"
+            android:label="@string/app_name"
+             android:theme="@android:style/Theme.NoTitleBar"
+             >
+        </activity>
+           <activity
+            android:name="tsysv.demo.popyti.Menu12"
+            android:label="@string/app_name"
+             android:theme="@android:style/Theme.NoTitleBar"
+             >
+        </activity>
+           <activity
+            android:name="tsysv.demo.popyti.Menu13"
+            android:label="@string/app_name"
+             android:theme="@android:style/Theme.NoTitleBar"
+             >
+        </activity>
+           <activity
+            android:name="tsysv.demo.popyti.Menu20"
+            android:label="@string/app_name"
+             android:theme="@android:style/Theme.NoTitleBar"
+             >
+        </activity>
+          <activity
+            android:name="tsysv.demo.popyti.Menu21"
+            android:label="@string/app_name"
+             android:theme="@android:style/Theme.NoTitleBar"
+             >
+        </activity>
+          <activity
+            android:name="tsysv.demo.popyti.Menu30"
+            android:label="@string/app_name"
+             android:theme="@android:style/Theme.NoTitleBar"
+             >
+        </activity>
+        
     </application>
 
 </manifest>
