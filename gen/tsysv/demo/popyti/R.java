@@ -101,7 +101,7 @@ public final class R {
         public static final int ic_launcher=0x7f02004d;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000d;
+        public static final int action_settings=0x7f08000f;
         public static final int f01=0x7f080004;
         public static final int f02=0x7f080000;
         public static final int im11=0x7f080001;
@@ -114,6 +114,8 @@ public final class R {
         public static final int main03=0x7f080008;
         public static final int main04=0x7f080007;
         public static final int mess01=0x7f08000c;
+        public static final int mess02=0x7f08000d;
+        public static final int mess03=0x7f08000e;
         public static final int rezhim01=0x7f08000b;
     }
     public static final class layout {
@@ -122,6 +124,8 @@ public final class R {
         public static final int activity_main=0x7f030002;
         public static final int main01=0x7f030003;
         public static final int mess01=0x7f030004;
+        public static final int mess02=0x7f030005;
+        public static final int mess03=0x7f030006;
     }
     public static final class menu {
         public static final int main=0x7f070000;

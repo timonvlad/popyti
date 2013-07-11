@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 
-public class Mess01 extends Activity {
+public class Mess02 extends Activity {
 	
 	ImageView im11;
 	
@@ -17,12 +17,12 @@ public class Mess01 extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.mess01);
+		setContentView(R.layout.mess02);
 		
 	//	RelativeLayout ll = (RelativeLayout) findViewById(R.id.f02);
 	//	ll.setBackgroundResource(R.drawable.f02);
 		
-		im11 = (ImageView) findViewById(R.id.mess01);
+		im11 = (ImageView) findViewById(R.id.mess02);
 		im11.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -30,8 +30,8 @@ public class Mess01 extends Activity {
 				// TODO Auto-generated method stub
 			
 				//Toast.makeText(getApplicationContext(), "First", Toast.LENGTH_LONG).show();
-				Log.v("Mess01", " first button");
-				 Intent ii = new Intent(getApplicationContext(), Mess02.class);
+				Log.v("Mess02", " first button");
+				 Intent ii = new Intent(getApplicationContext(), Mess03.class);
 	                startActivity(ii);
 	 
 	                // close this activity

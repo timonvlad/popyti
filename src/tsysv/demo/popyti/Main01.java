@@ -96,6 +96,8 @@ public class Main01 extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				Log.v("Main01", " MESSAGES");
+				 Intent ii = new Intent(getApplicationContext(), Mess01.class);
+	                startActivity(ii);
 			}
 		});
 		
