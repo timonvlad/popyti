@@ -11,7 +11,7 @@ import android.widget.ImageView;
 
 public class Menu00 extends Activity {
 	
-	ImageView im11,im12,im13,im14;
+	ImageView im11,im12,im13,im14,im00;
 	
 
 	@Override
@@ -26,9 +26,26 @@ public class Menu00 extends Activity {
 		im12 = (ImageView) findViewById(R.id.menu03);
 		im13 = (ImageView) findViewById(R.id.menu04);
 		im14 = (ImageView) findViewById(R.id.menu05);
+		
+		im00 = (ImageView) findViewById(R.id.menu01);
 
 		
 		
+		
+		
+		im00.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Log.v("menu00", " 0 button");
+				 Intent ii = new Intent(getApplicationContext(), WGroup01.class);
+	                startActivity(ii);
+	                finish();
+			}
+		});
+		
+		
+		/////////////////////////
 		im11.setOnClickListener(new View.OnClickListener() {
 			
 			@Override

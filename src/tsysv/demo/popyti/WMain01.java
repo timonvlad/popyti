@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 
-public class Main01 extends Activity {
+public class WMain01 extends Activity {
 	
 	ImageView main01, main02, main03, main04, karta01, rezhim01,mess01,actmar01;
 	
@@ -17,16 +17,16 @@ public class Main01 extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main01);
+		setContentView(R.layout.wmain01);
 		
-		main01 = (ImageView) findViewById(R.id.main01);
-		main02 = (ImageView) findViewById(R.id.main02);
-		main03 = (ImageView) findViewById(R.id.main03);
-		main04 = (ImageView) findViewById(R.id.main04);
-		karta01 = (ImageView) findViewById(R.id.karta01);
-		rezhim01 = (ImageView) findViewById(R.id.rezhim01);
-		mess01 = (ImageView) findViewById(R.id.mess01);
-		actmar01 = (ImageView) findViewById(R.id.actmar01);
+		main01 = (ImageView) findViewById(R.id.wmain01);
+		main02 = (ImageView) findViewById(R.id.wmain02);
+		main03 = (ImageView) findViewById(R.id.wmain03);
+		main04 = (ImageView) findViewById(R.id.wmain04);
+		karta01 = (ImageView) findViewById(R.id.wkarta01);
+		rezhim01 = (ImageView) findViewById(R.id.wrezhim01);
+		mess01 = (ImageView) findViewById(R.id.wmess01);
+		actmar01 = (ImageView) findViewById(R.id.wactmar01);
 		
 		
 		main01.setOnClickListener(new View.OnClickListener() {
@@ -86,7 +86,7 @@ public class Main01 extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				Log.v("Main01", " KARTA");
-				 Intent ii = new Intent(getApplicationContext(), Karta01.class);
+				 Intent ii = new Intent(getApplicationContext(), WKarta01.class);
 	                startActivity(ii);
 			}
 		});
@@ -98,7 +98,7 @@ public class Main01 extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				Log.v("Main01", " REZHIM");
-				 Intent ii = new Intent(getApplicationContext(), WMain01.class);
+				 Intent ii = new Intent(getApplicationContext(), Main01.class);
 	                startActivity(ii);
 	                finish();
 			}

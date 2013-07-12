@@ -99,9 +99,34 @@ public final class R {
         public static final int f76=0x7f02004b;
         public static final int fon21=0x7f02004c;
         public static final int ic_launcher=0x7f02004d;
+        public static final int w01=0x7f02004e;
+        public static final int w02=0x7f02004f;
+        public static final int w03=0x7f020050;
+        public static final int w04=0x7f020051;
+        public static final int w05=0x7f020052;
+        public static final int w06=0x7f020053;
+        public static final int w07=0x7f020054;
+        public static final int w08=0x7f020055;
+        public static final int w09=0x7f020056;
+        public static final int w10=0x7f020057;
+        public static final int w11=0x7f020058;
+        public static final int w12=0x7f020059;
+        public static final int w13=0x7f02005a;
+        public static final int w14=0x7f02005b;
+        public static final int w15=0x7f02005c;
+        public static final int w16=0x7f02005d;
+        public static final int w17=0x7f02005e;
+        public static final int w18=0x7f02005f;
+        public static final int w19=0x7f020060;
+        public static final int w20=0x7f020061;
+        public static final int w21=0x7f020062;
+        public static final int w22=0x7f020063;
+        public static final int w23=0x7f020064;
+        public static final int w24=0x7f020065;
+        public static final int w25=0x7f020066;
     }
     public static final class id {
-        public static final int action_settings=0x7f080040;
+        public static final int action_settings=0x7f08005b;
         public static final int actmar01=0x7f080018;
         public static final int f01=0x7f080004;
         public static final int f02=0x7f080000;
@@ -166,6 +191,33 @@ public final class R {
         public static final int vopr011=0x7f08003d;
         public static final int vopr10=0x7f08003e;
         public static final int vopr11=0x7f08003f;
+        public static final int wactmar01=0x7f080057;
+        public static final int wgr01=0x7f080040;
+        public static final int wgr02=0x7f080041;
+        public static final int wgr03=0x7f080042;
+        public static final int wgr04=0x7f080043;
+        public static final int wk01=0x7f080044;
+        public static final int wk02=0x7f080045;
+        public static final int wk03=0x7f080046;
+        public static final int wk04=0x7f080047;
+        public static final int wk05=0x7f080048;
+        public static final int wk06=0x7f080049;
+        public static final int wkarta01=0x7f080054;
+        public static final int wkarta010=0x7f08004a;
+        public static final int wkarta0100=0x7f08004c;
+        public static final int wkarta011=0x7f08004b;
+        public static final int wkarta0110=0x7f08004d;
+        public static final int wkarta0120=0x7f08004e;
+        public static final int wkarta0130=0x7f08004f;
+        public static final int wmain01=0x7f080050;
+        public static final int wmain02=0x7f080053;
+        public static final int wmain03=0x7f080052;
+        public static final int wmain04=0x7f080051;
+        public static final int wmess01=0x7f080056;
+        public static final int wrezhim01=0x7f080055;
+        public static final int wsos01=0x7f080058;
+        public static final int wsos02=0x7f080059;
+        public static final int wsos03=0x7f08005a;
     }
     public static final class layout {
         public static final int activity_02=0x7f030000;
@@ -209,6 +261,25 @@ public final class R {
         public static final int vopr01=0x7f030026;
         public static final int vopr010=0x7f030027;
         public static final int vopr011=0x7f030028;
+        public static final int wgroup01=0x7f030029;
+        public static final int wgroup02=0x7f03002a;
+        public static final int wgroup03=0x7f03002b;
+        public static final int wgroup04=0x7f03002c;
+        public static final int wkarcom01=0x7f03002d;
+        public static final int wkarcom02=0x7f03002e;
+        public static final int wkarcom03=0x7f03002f;
+        public static final int wkarcom04=0x7f030030;
+        public static final int wkarcom05=0x7f030031;
+        public static final int wkarcom06=0x7f030032;
+        public static final int wkarta01=0x7f030033;
+        public static final int wkarta010=0x7f030034;
+        public static final int wkarta011=0x7f030035;
+        public static final int wkarta012=0x7f030036;
+        public static final int wkarta013=0x7f030037;
+        public static final int wmain01=0x7f030038;
+        public static final int wsos01=0x7f030039;
+        public static final int wsos02=0x7f03003a;
+        public static final int wsos03=0x7f03003b;
     }
     public static final class menu {
         public static final int main=0x7f070000;
